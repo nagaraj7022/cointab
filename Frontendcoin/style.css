@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+  
+    
+    text-align: center;
+    padding: 10px; /* Reduced padding */
+    position: sticky;
+    top: 0;
+    
+}
+
+
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centers content horizontally */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 8px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Style for the buttons */
+button {
+    padding: 5px 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.add-btn {
+    background-color: #4caf50;
+    color: white;
+    border: none;
+}
+
+.open-btn {
+    background-color: #008CBA;
+    color: white;
+    border: none;
+}  
+
+
